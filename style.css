@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f0db;
+  color: #f7f0db;
+}
+
+.card-container {
+  background-color: #16261f;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #f7f0db;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #f7f0db;
+  display: flex;
+}
+
+
+#addToList {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: calc(100% - 70px);
+  margin-right: 0.5rem;
+  background-color: #0c1d12;
+  color: #f7f0db;
+}
+
+#myBtn {
+  padding: 0.8rem;
+  border: 2px solid #f7f0db;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #f7f0db;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#myBtn:hover {
+  background-color: #f7f0db;
+  color: #16261f;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0,8rem;
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  background-color: #0c1d12;
+  border-radius: 8px;
+  color: #f7f0db;
+  border: 1px solid #f39c12;
+}
+
+li span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.button-container button {
+  padding: 0.8rem 0.4rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f7f0db;
+  transition: background-color 0.3s;
+}
+
+
+.edit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+
+
+.completed-button {
+  background-color: #f39c12;
+}
+
+.completed-button:hover {
+  background-color: #e67e22;
+}
+
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+
+
+#clearAll {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #e74c3c;
+  color: #f7f0db;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#clearAll:hover {
+  background-color: #c0392b;
+}
+
+
